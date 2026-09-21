@@ -1436,9 +1436,9 @@
         "max_tokens": 384000
       },
       "pricing": {
-        "input_per_million_tokens": 0.089866,
-        "output_per_million_tokens": 0.179732,
-        "cache_read_per_million_tokens": 0.0179732
+        "input_per_million_tokens": 0.088606,
+        "output_per_million_tokens": 0.177212,
+        "cache_read_per_million_tokens": 0.0177212
       },
       "capabilities": {
         "function_calling": true,
@@ -1561,9 +1561,9 @@
         "max_tokens": 384000
       },
       "pricing": {
-        "input_per_million_tokens": 0.9483,
-        "output_per_million_tokens": 1.8966,
-        "cache_read_per_million_tokens": 0.079025
+        "input_per_million_tokens": 0.95526,
+        "output_per_million_tokens": 1.91052,
+        "cache_read_per_million_tokens": 0.079605
       },
       "capabilities": {
         "function_calling": true,
@@ -2876,9 +2876,9 @@
         "max_tokens": 117964
       },
       "pricing": {
-        "input_per_million_tokens": 0.06,
-        "output_per_million_tokens": 0.25,
-        "cache_read_per_million_tokens": 0.015
+        "input_per_million_tokens": 0.1,
+        "output_per_million_tokens": 0.15,
+        "cache_read_per_million_tokens": 0.05
       },
       "capabilities": {
         "function_calling": true,
@@ -2887,7 +2887,7 @@
         "prompt_caching": true,
         "response_schema": true
       },
-      "last_updated_at": "2026-09-18"
+      "last_updated_at": "2026-09-21"
     },
     "inception/mercury-2": {
       "mode": "chat",
@@ -3223,12 +3223,12 @@
       "mode": "chat",
       "context_window": {
         "max_input": 131072,
-        "max_output": 16384,
-        "max_tokens": 16384
+        "max_output": 8192,
+        "max_tokens": 8192
       },
       "pricing": {
-        "input_per_million_tokens": 0.4,
-        "output_per_million_tokens": 0.4
+        "input_per_million_tokens": 0.72,
+        "output_per_million_tokens": 0.72
       },
       "capabilities": {
         "function_calling": true,
@@ -3237,7 +3237,7 @@
         "prompt_caching": false,
         "response_schema": true
       },
-      "last_updated_at": "2026-09-07"
+      "last_updated_at": "2026-09-21"
     },
     "meta-llama/llama-3.1-8b-instruct": {
       "mode": "chat",
@@ -3328,8 +3328,8 @@
         "max_tokens": 16384
       },
       "pricing": {
-        "input_per_million_tokens": 0.1875,
-        "output_per_million_tokens": 0.6525
+        "input_per_million_tokens": 0.2,
+        "output_per_million_tokens": 0.8
       },
       "capabilities": {
         "function_calling": true,
@@ -3338,7 +3338,7 @@
         "prompt_caching": false,
         "response_schema": true
       },
-      "last_updated_at": "2026-09-18"
+      "last_updated_at": "2026-09-21"
     },
     "meta-llama/llama-4-scout": {
       "mode": "chat",
@@ -8451,8 +8451,8 @@
       },
       "pricing": {
         "input_per_million_tokens": 0.2,
-        "output_per_million_tokens": 2.55,
-        "cache_read_per_million_tokens": 0.085
+        "output_per_million_tokens": 2.5,
+        "cache_read_per_million_tokens": 0.05
       },
       "capabilities": {
         "function_calling": true,
